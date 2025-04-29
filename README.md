@@ -10,7 +10,7 @@ This report provides a comprehensive exploration of variants identified from who
 ------------------------------------------------------------------------
 
 ## 1. 🔬 Distribution of Variants per Gene
-![variants per gene](https://github.com/user-attachments/assets/319f9d4b-d2ba-4933-ab0d-2f79fb30065c)
+![variants per gene](https://github.com/user-attachments/assets/d3714d25-1856-469e-b332-39900f7b3ffc)
 
 ### 📌 Interpretation:
 
@@ -32,8 +32,7 @@ This report provides a comprehensive exploration of variants identified from who
 ------------------------------------------------------------------------
 
 ## 3. 🌡️ Heatmap of Mutation Density Across Genome
-
-![heatmap of variant positions by sample](https://github.com/user-attachments/assets/dc8993ad-6af6-42f9-8ad6-b11f32f258b3)
+![heatmap of variant positions by sample](https://github.com/user-attachments/assets/a4bd80ff-09a1-4306-827e-5b5a3fd50ea5)
 
 ### 📌 Interpretation:
 
@@ -44,7 +43,7 @@ This report provides a comprehensive exploration of variants identified from who
 ------------------------------------------------------------------------
 
 ## 4. 🧬 Top Amino Acid Changes
-![amino acid changes](https://github.com/user-attachments/assets/a2776b69-fc02-43b3-a454-820f870220b6)
+![amino acid changes](https://github.com/user-attachments/assets/afb0c892-deef-4ba5-b125-e90b6f652db3)
 
 ### 📌 Interpretation:
 
