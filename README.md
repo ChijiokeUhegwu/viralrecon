@@ -1,1 +1,2 @@
 # viralrecon
+This report provides a comprehensive exploration of variants identified from whole genome sequencing (WGS) of SARS-CoV-2 samples. The initial processing and analysis were conducted using the ViralRecon pipeline via Bash scripting, which enabled high-throughput quality control, read mapping, variant calling, and consensus sequence generation. Using visual analytics in R, I aimed to uncover the biological patterns behind mutation distribution, variant types, amino acid substitutions, and more.
