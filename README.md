@@ -79,8 +79,9 @@ This report provides a comprehensive exploration of variants identified from who
 
 This analysis shows that the **Spike protein** is a major site of evolutionary change in SARS-CoV-2. - Mutations like **D614G** and **E484K** have major implications for **transmission and immune escape**. - Variant allele frequencies suggest both **dominant and emerging variants** within the population. This kind of genomic surveillance can guide **public health decisions** and **vaccine updates**.
 
-Link to the MultiQC reports, reproducible nextflow script, and other Linux outputs: https://github.com/ChijiokeUhegwu/viralrecon/tree/main/viralrecon_linux  
-Link to R scripts and visualizations: https://github.com/ChijiokeUhegwu/viralrecon/tree/main/viralrecon_R
+**Link to the MultiQC reports, reproducible nextflow script, and other Linux outputs:** https://github.com/ChijiokeUhegwu/viralrecon/tree/main/viralrecon_linux  
+
+**Link to R scripts and visualizations:** https://github.com/ChijiokeUhegwu/viralrecon/tree/main/viralrecon_R
 
 ------------------------------------------------------------------------
 
