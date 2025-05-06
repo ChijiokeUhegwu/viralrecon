@@ -1,0 +1,16 @@
+nextflow run nf-core/viralrecon -profile docker \
+--max_memory '6.GB' --max_cpus 2 \
+--input /home/chijioke/futurelearn/samplesheet.csv \
+--outdir /home/chijioke/futurelearn/docker_viral_results \
+--protocol amplicon \
+--fasta /home/chijioke/futurelearn/ref_data/MN908947.fasta \
+--primer_set artic \
+--primer_set_version 3 \
+--primer_bed /home/chijioke/futurelearn/ref_data/nCoV-2019.bed \
+--skip_kraken2 \
+--skip_assembly \
+--skip_pangolin \
+--skip_nextclade \
+--skip_asciigenome \
+--platform illumina \
+-resume -with-trace -with-timeline -with-report

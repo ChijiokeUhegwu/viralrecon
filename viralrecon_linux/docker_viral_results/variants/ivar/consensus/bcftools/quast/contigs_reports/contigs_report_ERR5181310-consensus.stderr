@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.004*1.38] collected minimizers
+[M::mm_idx_gen::0.006*1.24] sorted minimizers
+[M::main::0.006*1.24] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.007*1.22] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.007*1.21] distinct minimizers: 3006 (100.00% are singletons); average occurrences: 1.000; average spacing: 9.948; total length: 29903
+[M::worker_pipeline::0.023*1.06] mapped 1 sequences
+[M::main] Version: 2.24-r1122
+[M::main] CMD: /usr/local/bin/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join -r 200 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /home/chijioke/futurelearn/work/68/8b82bdc90c4be7dd789921d7e2b3e4/quast/quast_corrected_input/MN908947.fasta /home/chijioke/futurelearn/work/68/8b82bdc90c4be7dd789921d7e2b3e4/quast/quast_corrected_input/ERR5181310-consensus.fa
+[M::main] Real time: 0.025 sec; CPU: 0.026 sec; Peak RSS: 0.087 GB
