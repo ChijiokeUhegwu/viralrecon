@@ -10,57 +10,6 @@ if(!require(pacman)) install.packages("pacman")
 var <- read_csv(here("data/variants_long_table.csv"))
 head (var)  #to display the first 6 rows of the dataset
 
-# exploring the data ----
-dim(var) # to display the dimensions of the dataset
-str(var) # to display the structure of the dataset
-summary(var) # to display an overview of the dataset including the mean, mode, etc of the numerical data
-summary(var$CHROM) #to display a column in the dataset, use the $ sign and the column name
-summary(var$DP)
-class(var) #to check for the class of your data or its subsets
-class(var$SAMPLE)
-view(var) #this displays an Interactive spreadsheet-style of the entire dataset in a new window
-
-select(var, SAMPLE, REF, ALT) #using the select function, you can display some columns
-var %>% select(SAMPLE) # you can also pipe an argument to the other
-select(var, SAMPLE, REF, ALT) %>% head(3) # you can pipe to display a few rows from the selected columns
-select(var, -CALLER) %>% head(3) # Select all columns except the column “CALLER” 
-
-
-#transform the data frame into a tibble ----
-var_tb <- as_tibble(var) 
-var_tb
-
-# split and study different subdatasets ----
-var_tb[var_tb$SAMPLE == "SRR13500958",] #Select rows with selected display with base R function 
-filter(var_tb, SAMPLE == "SRR13500958") %>% head(3) #Select rows with selected display using dplyr functions
-var_tb %>% filter(SAMPLE == "SRR13500958") %>% head(5) #using pipe sign 
-
-# Select sample type (rows) and variables (columns) with selected display
-var_tb %>% filter(SAMPLE == "SRR13500958") %>% select(CHROM, POS, REF, ALT) %>% head(3)
-
-# To select only values for which DP>=500 for the same sample
-var_tb %>% filter(SAMPLE == "SRR13500958" & DP>=500) %>% select(CHROM, POS, REF, ALT, DP)
-
-# To select only values for which DP>=1000 for the same sample
-var_tb %>% filter(SAMPLE == "SRR13500958" & DP>=1000) %>% select(CHROM, POS, REF, ALT, DP)
-
-# Sorting the counts (this counts the rows in each of the samples, and sorts in order)
-var_tb %>% count(SAMPLE, sort = TRUE)
-
-# Distribution of genes per sample and counts 
-var_tb %>% count(SAMPLE, GENE, sort = TRUE) %>% head()
-
-# Compute a LOG2 transformation on the DP values and append it to the table using the mutate function, assign it to an object 
-var_tb_log <- var_tb %>% mutate(DP_log2 = log2(DP))
-view(var_tb_log)
-
-# Show the maximum value of DP for each sample
-var_tb %>% group_by(SAMPLE) %>% summarize(max(DP))
-
-# Show the minimum value of DP for each sample
-var_tb %>% group_by(SAMPLE) %>% summarize(min(DP))
-
-
 #visualization of the data ----
 #The distribution of DP values per sample
 DP_per_sample <- ggplot(data = var_tb) + 
