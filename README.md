@@ -1,4 +1,4 @@
-# 🧬 SARS-CoV-2 Whole Genome Variant Analysis Report
+# Genomic Insights Into SARS-CoV-2: Mutation Patterns and Public Health Implications
 
 **Data Source:** Variant annotations from whole genome sequencing of SARS-CoV-2 samples\
 **Tools Used:** Bash, Nextflow, R.
