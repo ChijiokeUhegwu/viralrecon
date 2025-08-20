@@ -20,7 +20,7 @@ This report provides a comprehensive exploration of variants identified from who
 
 ------------------------------------------------------------------------
 
-## 2. 🧠 Functional Effect of Variants
+## 2. Functional Effect of Variants
 ![proportion of mutation effects](https://github.com/user-attachments/assets/378a27d9-664e-409f-a327-06a838d45a34)
 
 ### 📌 Interpretation:
@@ -31,7 +31,7 @@ This report provides a comprehensive exploration of variants identified from who
 
 ------------------------------------------------------------------------
 
-## 3. 🌡️ Heatmap of Mutation Density Across Genome
+## 3. Heatmap of Mutation Density Across Genome
 ![heatmap of variant positions by sample](https://github.com/user-attachments/assets/a4bd80ff-09a1-4306-827e-5b5a3fd50ea5)
 
 ### 📌 Interpretation:
@@ -40,7 +40,7 @@ This report provides a comprehensive exploration of variants identified from who
 
 ------------------------------------------------------------------------
 
-## 4. 🧬 Top Amino Acid Changes
+## 4. Top Amino Acid Changes
 ![amino acid changes](https://github.com/user-attachments/assets/afb0c892-deef-4ba5-b125-e90b6f652db3)
 
 ### 📌 Interpretation:
@@ -54,7 +54,7 @@ Hence, these mutations warrant close monitoring due to their **functional and ep
 
 ------------------------------------------------------------------------
 
-## 5. 📈 Allele Frequency Distribution
+## 5. Allele Frequency Distribution
 ![allele frequency distribution](https://github.com/user-attachments/assets/3f18a5b9-6995-408e-86f5-31f90f3e4201)
 
 ### 📌 Interpretation:
@@ -65,7 +65,7 @@ Hence, these mutations warrant close monitoring due to their **functional and ep
 
 ------------------------------------------------------------------------
 
-## 6. 👥 Variants per Sample
+## 6. Variants per Sample
 ![variant count per sample](https://github.com/user-attachments/assets/16340197-af81-4233-9239-871c7bae3b55)
 
 ### 📌 Interpretation:
@@ -75,7 +75,7 @@ Hence, these mutations warrant close monitoring due to their **functional and ep
 
 ------------------------------------------------------------------------
 
-## 🧩 Summary
+## Summary
 
 This analysis shows that the **Spike protein** is a major site of evolutionary change in SARS-CoV-2. - Mutations like **D614G** and **E484K** have major implications for **transmission and immune escape**. - Variant allele frequencies suggest both **dominant and emerging variants** within the population. This kind of genomic surveillance can guide **public health decisions** and **vaccine updates**.
 
@@ -85,7 +85,7 @@ This analysis shows that the **Spike protein** is a major site of evolutionary c
 
 ------------------------------------------------------------------------
 
-## ✍️ Citation
+## Citation
 
 If using this report, please cite as:\
 \> [Chijioke Uhegwu]. "SARS-CoV-2 Whole Genome Variant Analysis." GitHub. [https://github.com/ChijiokeUhegwu/viralrecon], 2025.
