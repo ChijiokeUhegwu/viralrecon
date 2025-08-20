@@ -3,13 +3,13 @@
 **Data Source:** Variant annotations from whole genome sequencing of SARS-CoV-2 samples\
 **Tools Used:** Bash, Nextflow, R.
 
-## 📘 Overview
+## Overview
 
 This report provides a comprehensive exploration of variants identified from whole genome sequencing (WGS) of SARS-CoV-2 samples. The initial processing and analysis were conducted using the ViralRecon pipeline on Nextflow via Bash scripting, which enabled high-throughput quality control, read mapping, variant calling, and consensus sequence generation. Using visual analytics in R, I aimed to uncover the biological patterns behind mutation distribution, variant types, amino acid substitutions, and more.
 
 ------------------------------------------------------------------------
 
-## 1. 🔬 Distribution of Variants per Gene
+## 1. Distribution of Variants per Gene
 ![variants per gene](https://github.com/user-attachments/assets/d3714d25-1856-469e-b332-39900f7b3ffc)
 
 ### 📌 Interpretation:
