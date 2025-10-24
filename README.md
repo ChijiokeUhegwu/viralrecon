@@ -3,7 +3,7 @@
 **Data Source:** Variant annotations from whole genome sequencing of SARS-CoV-2 samples\
 **Tools Used:** Bash, Nextflow, R.
 
-## Overview
+# 1. Overview
 
 The global emergence of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in late 2019 triggered an unprecedented genomic surveillance effort to understand viral evolution, transmission dynamics, and public health implications [1]. Whole genome sequencing (WGS) has been pivotal in identifying key mutations and tracking variants of concern (VOCs) such as Alpha, Delta, and Omicron, which exhibit distinct phenotypic features influencing transmissibility and immune escape [2].
 
@@ -11,7 +11,7 @@ This report provides a comprehensive exploration of SARS-CoV-2 variants identifi
 
 ------------------------------------------------------------------------
 
-## Methodology 
+# 2. Methodology 
 
 This project utilized the nf-core/viralrecon pipeline implemented via Nextflow to perform high-throughput analysis of SARS-CoV-2 WGS data. The workflow automated critical steps, including quality control, adapter trimming, reference-based alignment, variant calling, and consensus sequence generation. All analyses were conducted on a Linux environment using Bash scripting for workflow orchestration and reproducibility.
 
@@ -67,7 +67,7 @@ All scripts and reports are publicly available and reproducible via the links be
 
 Pipeline documentation and parameters were based on the official [nf-core/viralrecon](https://nf-co.re/viralrecon) guidelines [4].
 
-## Results and Discussion
+# 3. Results and Discussion
 
 ### 1. Distribution of Variants per Gene
 ![variants per gene](https://github.com/user-attachments/assets/d3714d25-1856-469e-b332-39900f7b3ffc)
@@ -135,7 +135,7 @@ Hence, these mutations warrant close monitoring due to their **functional and ep
 
 ------------------------------------------------------------------------
 
-## Summary
+# Summary
 
 This analysis shows that the **Spike protein** is a major site of evolutionary change in SARS-CoV-2. - Mutations like **D614G** and **E484K** have major implications for **transmission and immune escape**. - Variant allele frequencies suggest both **dominant and emerging variants** within the population. This kind of genomic surveillance can guide **public health decisions** and **vaccine updates**.
 
